@@ -1,7 +1,7 @@
 .header{
     width: 100%;
-    height: 8.8rem;
-    background-color: var(---black);
+    height: 10rem;
+    background-color: var(---primary);
 }
 
 .header .container{
@@ -24,7 +24,7 @@
 }
 .header .container .navbar{
     display: flex;
-    align-items: center;   
+    align-items: center;
     margin-top: 3.5rem;
 }
 
@@ -37,15 +37,14 @@
 /* FINAL DO HEADER */
 
 
-
 /* INICIO SECTION HERO */
 
 .se-hero{
     width: 100%;
     max-width: 100%;
     display: flex;
-    padding: 7.2rem 0px;
-    background-color: var(---black);
+    padding: 7rem 0px;
+    background-color: var(---primary);
 }
 
 .se-hero .container{
@@ -72,11 +71,11 @@
     width: 100%;
     display: flex;
     align-items: flex-end;
-    max-width: 42.6rem;
+    max-width: 47.6rem;
 }
 
 .se-hero .image img{
-    width: 490px;
+    width: 52.6rem;
 }
 
 .se-hero .btn{
@@ -110,6 +109,7 @@
     align-items: center;
     padding: 6.4rem;
     border: none;
+    box-shadow: 10px 10px 10px 1px var(---secundary);
     transition: 0.7s;
 }
 .title.center h3{
@@ -117,7 +117,8 @@
     font-size: 2rem;
 }
 .se-info .all-cards .card:hover{
-    transform: scale(1.05);
+    transform: translateY(10%);
+    box-shadow: none;
 }
 
 .all-cards .icon img{
@@ -210,4 +211,84 @@
 }
 .btn-price .btn:hover{
     transform: translateY(10%);
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: var(---primary);
+    padding-top: 8.8rem;
+}
+
+.footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 7.2rem;
+}
+
+.footer main .area-left{
+    max-width: 28.1rem;
+}
+
+.footer main .area-left .logo{
+    display: inline-block;
+    color: white;
+}
+
+.footer main .area-left .logo span{
+    color: gray;
+    font-size: 2rem;
+}
+
+.footer main .area-left p{
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(---text);
+    margin-top: 3.5rem;
+}
+
+.footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+.footer main nav .item h6{
+     font-weight: 600;
+     line-height: 125%;
+     letter-spacing: -1px;
+     color: var(---text);
+     margin-bottom: 2.4rem;
+}
+
+.footer main nav .item ul li{
+    margin-bottom: 3.2rem;
+    transition: all .3s;
+}
+
+.footer main nav .item ul li:hover{
+    padding-left: 1rem;
+}
+
+.footer main nav .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+.footer main nav .item ul li a{
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(---secundary);
+}
+
+.footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.footer main nav .item:last-child ul li a span{
+    margin-left: 0.8rem;
 }
