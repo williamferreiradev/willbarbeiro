@@ -71,12 +71,12 @@
 .se-hero .image{
     width: 100%;
     display: flex;
-    align-items: flex-end;
-    max-width: 42.6rem;
+    align-items: center;
+    max-width: 44.6rem;
 }
 
 .se-hero .image img{
-    width: 490px;
+    width: 470px;
 }
 
 .se-hero .btn{
