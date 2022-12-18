@@ -149,3 +149,65 @@
     margin-top: 8rem;
     align-items: center;
 }
+
+
+
+/* SECTION PREÇOS */
+
+.price{
+    padding-top: 10.4rem;
+    padding-bottom: 12.2rem;
+    background-color: var(---black);
+}
+
+.price .all-cards-precos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+.price .all-cards-precos .card{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 38.2rem;
+    display: flex;
+    background-color: var(---cards);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6.4rem;
+    border: none;
+    transition: 0.7s;
+    box-shadow: 10px 10px 10px 1px var(---secundary);
+}
+
+.price .all-cards-precos .card:hover{
+    transform: scale(1.07);
+    box-shadow: 4px 4px 4px 1px var(---secundary);
+}
+
+.all-cards-precos .info{
+    margin-top: 4rem;
+    max-width: 28rem;
+}
+
+.all-cards-precos .info h3{
+    color: var(---black);
+}
+
+.all-cards-precos .info .list li{
+    margin-top: 1rem;
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+.btn-price {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 8rem;
+    align-items: center;
+    transition: 1s;
+}
+.btn-price .btn:hover{
+    transform: translateY(10%);
+}
