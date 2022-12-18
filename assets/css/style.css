@@ -35,3 +35,53 @@
 
 
 /* FINAL DO HEADER */
+
+
+
+/* INICIO SECTION HERO */
+
+.se-hero{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    padding: 7.2rem 0px;
+    background-color: var(---black);
+}
+
+.se-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se-hero .text{
+    width: 100%;
+    max-width: 65.5rem;
+}
+
+.se-hero .text p{
+    width: 100%;
+    max-width: 54.9rem;
+    margin-top: 2rem;
+    font-weight: 300;
+    margin-bottom: 5.6rem;
+    color: var(---text);
+}
+
+.se-hero .image{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    max-width: 42.6rem;
+}
+
+.se-hero .image img{
+    width: 490px;
+}
+
+.se-hero .btn{
+    width: 30rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
